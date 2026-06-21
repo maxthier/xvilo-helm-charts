@@ -4,3 +4,9 @@ description: Self-hosted stocks & ETF portfolio tracker (Symfony API + React SPA
 type: application
 version: 0.1.1
 appVersion: "0.2.0"
+
+annotations:
+  # Supported kind: added, changed, deprecated, removed, fixed and security
+  artifacthub.io/changes: |
+    - kind: security
+      description: "Updated app Version."
